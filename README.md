@@ -26,13 +26,13 @@ npm run dev
 Em outra aba do terminal, entre na pasta frontend e digite:
 
 ```
-npm install
+yarn install
 ```
 
 Após instalar as dependências, digite:
 
 ```
-npm start
+yarn start
 ```
 
 No seu navegador, acesse a aplicação pelo endereço http://localhost:3001/
