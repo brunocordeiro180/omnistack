@@ -32,8 +32,8 @@ npm install
 Após instalar as dependências, digite:
 
 ```
-yarn start
+npm start
 ```
 
-No seu navegador, acesse a aplicação pelo endereço http://localhost:3006/
+No seu navegador, acesse a aplicação pelo endereço http://localhost:3001/
 
