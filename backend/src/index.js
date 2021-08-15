@@ -8,7 +8,7 @@ const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
-mongoose.connect('mongodb+srv://semana:semana@cluster0-ksxjz.mongodb.net/test?retryWrites=true&w=majority',{ useNewUrlParser : true})
+mongoose.connect('mongodb+srv://semana:semana@cluster0.ksxjz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{ useNewUrlParser : true})
 
 app.use('/files', express.static(path.resolve(__dirname, '..', 'uploads', 'resized')))
 
